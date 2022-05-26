@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(73, 178, 249);
+}
+
+.container{
+    height: auto;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1{
+    padding-bottom: 15px;
+}
+
+.container p{
+    margin: 10px 0;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.quantidade{
+    font-weight: 400;
+    font-size: 26px;
+    padding: 0 10px;
+}
