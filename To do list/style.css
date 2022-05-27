@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: auto;
+    width: 70%;
+    margin: 35px auto 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.formulario input{
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn{
+    width: 80px;
+    height: 25px;
+}
