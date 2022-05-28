@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 51%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    height: auto;
+    width: 70%;
+    margin: 35px auto 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.title h1{
+    font-size: 42px;
+    color: gold;
+}
+
+.formulario input{
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn{
+    width: 80px;
+    height: 25px;
+}
+
+.atividade{
+    margin-top: 15px;
+}
+
+.atividade input{
+    width: 20px;
+    height: 20px;
+}
+
+.atividade label{
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.tarefaFinalizada{
+    color: red;
+    font-weight: normal ;
+    font-style: italic;
+    text-decoration: line-through;
+}
